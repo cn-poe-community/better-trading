@@ -19,7 +19,7 @@ import TradeLocationHistory from 'better-trading/services/trade-location/history
 import config from 'better-trading/config/environment';
 
 // Constants
-const BASE_URL = 'https://www.pathofexile.com';
+const BASE_URL = 'https://poe.game.qq.com';
 
 export default class TradeLocation extends Service.extend(Evented) {
   @service('trade-location/history')

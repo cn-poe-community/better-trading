@@ -24,7 +24,7 @@ const manifest = Object.assign(
     manifest_version: 3,
     content_scripts: [
       {
-        matches: ['*://www.pathofexile.com/trade*', '*://pathofexile.com/trade*'],
+        matches: ['*://poe.game.qq.com/trade*'],
         js: [assetsPathFor('vendor.js'), assetsPathFor('better-trading.js')],
         css: [assetsPathFor('vendor.css'), assetsPathFor('better-trading.css')],
       },
@@ -37,7 +37,7 @@ const manifest = Object.assign(
     web_accessible_resources: [
       {
         resources: [assetsPathFor('images/*')],
-        matches: ['*://www.pathofexile.com/*', '*://pathofexile.com/*'],
+        matches: ['*://poe.game.qq.com/trade*'],
       },
     ],
     icons: {
