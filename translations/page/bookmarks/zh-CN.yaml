@@ -48,3 +48,24 @@ page:
         modal-title: '书签文件夹导出'
         preview-url: '预览页面'
         preview-url-button: '在新标签页中打开'
+        export-code: '导出代码'
+        export-code-helper: '此代码可用于恢复文件夹，可用于备份和分享。'
+        embed-code: '嵌入代码片段'
+        embed-code-helper: '可用于网站中，包含文件夹预览的代码片段。'
+        close: '关闭'
+      trade-edition:
+        modal-title: '书签交易'
+        title-label: '标题'
+        save: '保存'
+    folder-edition:
+      modal-title: '书签文件夹'
+      title-label: '标题'
+      icon-label: '图标'
+      save: '保存'
+    folder-import:
+      modal-title: '导入书签文件夹'
+      import-code:
+        label: '导入代码'
+      preview: '{name} {tradesCount, plural, =0 {} =1 {(1个书签)} other {(#个书签)}}'
+      invalid-code: '输入的代码似乎无效，请尝试另一个。'
+      save: '保存'

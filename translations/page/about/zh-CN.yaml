@@ -5,7 +5,7 @@ page:
       title: '已启用的搜索结果优化'
       equivalent-pricings: '使用等价通货定价（由 poe.ninja 提供支持）'
       highlight-stat-filters: '高亮显示搜索的词缀'
-      maximum-sockets: '提示无法获得六孔的装备（六孔必须高于特定物品等级）'
+      maximum-sockets: '提示无法获得六孔的装备（物等小于50级）'
       regroup-similars: '合并相似结果'
     github:
       title: '在 GitHub 上'
