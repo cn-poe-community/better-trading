@@ -17,7 +17,7 @@ module.exports = function () {
      * @type {Array?}
      * @default "null"
      */
-    locales: ['en'],
+    locales: ['en', 'zh-CN'],
 
     /**
      * autoPolyfill, when true will automatically inject the IntlJS polyfill

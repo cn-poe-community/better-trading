@@ -1,0 +1,16 @@
+page:
+  about:
+    disclaimer: '本扩展由玩家制作，与 Grinding Gear Games 没有任何关联。'
+    enhancers:
+      title: '已启用的搜索结果优化'
+      equivalent-pricings: '使用等价通货定价（由 poe.ninja 提供支持）'
+      highlight-stat-filters: '高亮显示搜索的词缀'
+      maximum-sockets: '提示无法获得六孔的装备（六孔必须高于特定物品等级）'
+      regroup-similars: '合并相似结果'
+    github:
+      title: '在 GitHub 上'
+      description: '贡献代码、报告问题或者浏览源代码。'
+      button: '在 GitHub 上查看'
+    credits:
+      title: '致谢'
+      description: 'Better Trading 最初由 <strong>InfaMc</strong> (<a href="https://github.com/pboutin">@pboutin</a>) 创建，目前由 <strong>brosmike</strong> (<a href="https://github.com/dbjorge">@dbjorge</a>) 维护。'

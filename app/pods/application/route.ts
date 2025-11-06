@@ -12,6 +12,9 @@ import PageTitle from 'better-trading/services/page-title';
 
 // Constants
 const DEFAULT_LOCALE = 'en';
+const LOCALE_TABLE: { [uiLocale: string]: string } = {
+  "zh-CN": "zh-CN",
+}
 
 export default class ApplicationRoute extends Route {
   @service('bookmarks')
@@ -33,7 +36,10 @@ export default class ApplicationRoute extends Route {
   pageTitle: PageTitle;
 
   async beforeModel() {
-    this.intl.setLocale(DEFAULT_LOCALE);
+    const uiLocale = navigator.language;
+    const locale = LOCALE_TABLE[uiLocale] ?? DEFAULT_LOCALE;
+    this.intl.setLocale(locale);
+
     await this.itemResults.initialize();
     this.tradeLocation.initialize();
     await this.storage.initialize();
