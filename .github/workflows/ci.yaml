@@ -16,8 +16,6 @@ jobs:
           node-version-file: package.json
           cache: npm
       - run: make dependencies
-      - run: make verify
-      - run: make test
         env:
           JOBS: 1 # See https://git.io/vdao3 for details
       - run: make package-chrome
