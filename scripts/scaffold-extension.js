@@ -37,7 +37,7 @@ const manifest = Object.assign(
     web_accessible_resources: [
       {
         resources: [assetsPathFor('images/*')],
-        matches: ['*://poe.game.qq.com/trade*'],
+        matches: ['*://poe.game.qq.com/*'],
       },
     ],
     icons: {
