@@ -23,3 +23,9 @@ jobs:
         with:
           name: chrome-extension
           path: dist-packages/chrome.zip
+      - run: mv dist-packages/chrome.zip dist-packages/better-trading-cn-${{ github.ref_name }}.zip
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref_type == 'tag'
+        with:
+          files: dist-packages/better-trading-cn-${{ github.ref_name }}.zip
